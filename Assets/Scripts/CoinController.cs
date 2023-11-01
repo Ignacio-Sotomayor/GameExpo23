@@ -10,12 +10,11 @@ public class CoinController : MonoBehaviour
     private Transform CoinTransform;
 
     public int valor;
-    private GameObject gestor;
+    public GameObject gestor;
 
 
     void Start(){
         CoinTransform = GetComponent<Transform>();
-        gestor = GameObject.FindWithTag("Gestor");
     }
 
     public void Activate(){

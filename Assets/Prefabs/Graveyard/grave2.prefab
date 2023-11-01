@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4340369902170372}
   - component: {fileID: 33575447952235834}
   - component: {fileID: 23659090637446712}
+  - component: {fileID: -8752274069944666803}
   m_Layer: 0
   m_Name: grave2
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-8752274069944666803
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861351016074174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.33814642, y: 0.08714689, z: 0.30868325}
+  m_Center: {x: -0.00081312656, y: 0.014910624, z: 0.12564574}
